@@ -1,0 +1,44 @@
+<!-- recyclerview_item.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@drawable/card_background"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:padding="16dp"
+        android:textSize="16sp"
+
+        android:text="Density: "
+        />
+    <TextView
+        android:id="@+id/densityLabelTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="####"
+        />
+    <TextView
+        android:id="@+id/dateLabelTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:padding="16dp"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:text="########"
+        />
+
+</LinearLayout>

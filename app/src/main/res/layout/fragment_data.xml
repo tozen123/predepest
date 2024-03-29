@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/green"
+    tools:context=".data">
+
+    <LinearLayout
+        android:id="@+id/list_bar"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rounded_panel"
+        android:orientation="vertical"
+        android:padding="18dp"
+
+        >
+
+
+        <com.google.android.material.tabs.TabLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:id="@+id/tab_layout"
+            android:background="@color/white"
+            app:tabInlineLabel="true"
+            app:tabTextColor="@color/black"
+            app:tabIndicatorColor="@color/green"
+            app:tabSelectedTextColor="@color/green"
+            app:tabTextAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:elevation="6dp"
+
+            >
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LIST"
+                />
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CHART"
+                />
+
+        </com.google.android.material.tabs.TabLayout>
+
+        <androidx.viewpager.widget.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/view_pager"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

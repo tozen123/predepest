@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/green"
+
+    tools:context=".pesticide_schedule">
+    <LinearLayout
+        android:id="@+id/sched_main_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rounded_nav_bar"
+        android:layout_marginTop="16dp"
+        android:padding="20dp"
+        >
+        <CalendarView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/rounded_box"
+            android:backgroundTint="#C6C6C6"
+
+
+            android:theme="@style/calendarTheme"
+            android:dateTextAppearance="@style/CalenderViewDateCustomText"
+            android:weekDayTextAppearance="@style/CalenderViewWeekCustomText"
+
+            >
+
+        </CalendarView>
+    </LinearLayout>
+
+
+</LinearLayout>

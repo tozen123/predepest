@@ -1,0 +1,52 @@
+<!-- recyclerview_item.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@drawable/card_background"
+    android:orientation="horizontal"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:padding="18dp"
+        >
+
+        <ImageView
+            android:id="@+id/pest_image"
+
+            android:layout_weight="0.2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:layout_gravity="center"
+            >
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/title"
+
+            android:layout_weight="0.8"
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:fontFamily="@font/montserratbold"
+            android:text="DATA_TITLE"
+            android:gravity="end|bottom"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

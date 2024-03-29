@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pest_information"
+
+    android:orientation="vertical"
+    android:background="@color/green"
+    >
+
+    <LinearLayout
+        android:id="@+id/pest_main_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rounded_nav_bar"
+        android:layout_marginTop="16dp"
+        android:padding="20dp"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+
+
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:fontFamily="@font/montserratbold"
+                android:text="Rice Pests Information"
+                android:textColor="@color/green"
+                android:textSize="32sp"
+
+                android:hyphenationFrequency="full"
+                />
+
+            <ImageView
+                android:layout_weight="0.7"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pesticon"
+
+                android:layout_gravity="center"
+                >
+
+            </ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            >
+            <EditText
+                android:layout_marginTop="18dp"
+
+                android:id="@+id/search_edit_txt"
+                android:layout_weight="0.5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_box"
+                android:backgroundTint="#CACACA"
+                android:textSize="14sp"
+                android:padding="14dp"
+                android:hint="Search Keyword"
+
+                android:drawableRight="@drawable/searchicon"
+                android:drawablePadding="8dp"
+                android:imeOptions="actionSearch"
+                >
+
+            </EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewSearchResults"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

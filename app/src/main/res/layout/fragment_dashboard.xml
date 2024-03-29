@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dashboard"
+    android:orientation="vertical"
+    android:background="@color/green"
+    >
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+
+        android:paddingTop="20dp"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.5"
+            >
+            <TextView
+                android:id="@+id/detected_pest_label_txt"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DETECTED PEST COUNT"
+                android:fontFamily="@font/montserratbold"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:paddingTop="18dp"
+                />
+            <ImageView
+                android:id="@+id/icon_pest"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_pest"
+                >
+
+            </ImageView>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/detected_pest_count_txt"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="00"
+            android:fontFamily="@font/montserratbold"
+            android:textColor="@color/white"
+            android:textSize="116sp"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/main_bar"
+        android:layout_marginTop="-10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rounded_panel"
+        android:orientation="vertical"
+        android:padding="18dp"
+        >
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:rowCount="2"
+            android:columnCount="2"
+            android:orientation="horizontal"
+            android:layout_marginTop="18dp"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="@drawable/rounded_box"
+                android:backgroundTint="@color/green"
+                android:padding="18dp"
+                android:layout_margin="15dp"
+                android:orientation="vertical"
+
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Density"
+                    android:fontFamily="@font/montserratbold"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/density_count_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="HIGH"
+                    android:fontFamily="@font/montserratbold"
+                    android:textColor="@color/white"
+                    android:gravity="end"
+                    android:textSize="37sp"
+                    android:paddingTop="18dp"
+                    android:paddingBottom="18dp"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="@drawable/rounded_box"
+                android:backgroundTint="@color/green"
+                android:padding="18dp"
+                android:layout_margin="15dp"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Humidity"
+                    android:fontFamily="@font/montserratbold"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/humidity_count_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="88%"
+                    android:fontFamily="@font/montserratbold"
+                    android:textColor="@color/white"
+                    android:gravity="end"
+                    android:textSize="50sp"
+                    android:paddingTop="18dp"
+                    android:paddingBottom="18dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="@drawable/rounded_box"
+                android:backgroundTint="@color/green"
+                android:padding="18dp"
+                android:layout_margin="15dp"
+                android:orientation="vertical"
+
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Temperature"
+                    android:fontFamily="@font/montserratbold"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/temperature_count_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0 c"
+                    android:fontFamily="@font/montserratbold"
+                    android:textColor="@color/white"
+                    android:gravity="end"
+                    android:textSize="37sp"
+                    android:paddingTop="18dp"
+                    android:paddingBottom="18dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="@drawable/rounded_box"
+                android:backgroundTint="@color/green"
+                android:padding="18dp"
+                android:layout_margin="15dp"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Precipitation"
+                    android:fontFamily="@font/montserratbold"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+                <TextView
+                    android:id="@+id/percipitation_count_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="00%"
+                    android:fontFamily="@font/montserratbold"
+                    android:textColor="@color/white"
+                    android:gravity="end"
+                    android:textSize="37sp"
+                    android:paddingTop="18dp"
+                    android:paddingBottom="18dp"
+                    />
+
+            </LinearLayout>
+
+        </GridLayout>
+
+        <Button
+            android:id="@+id/about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About"
+
+            android:background="@drawable/rounded_box"
+            android:backgroundTint="@color/green"
+
+            android:layout_gravity="center"
+
+            android:layout_marginTop="18dp"
+            >
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>
+
