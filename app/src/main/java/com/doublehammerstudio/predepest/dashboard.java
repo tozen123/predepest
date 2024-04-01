@@ -14,10 +14,13 @@ import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 
 public class dashboard extends Fragment {
 
+
+    private TextView densityCount, humidityCount, temperatureCount, percipitationCount;
 
 
     @Override
