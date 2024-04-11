@@ -2,4 +2,124 @@
     <string name="app_name">predepest</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="a"><b>Mole crickets</b> (Orthoptera:Gryllotalpidae) It has cylindrical-bodied,
+        burrowing insects, typically 3–5 cm long, with shovel-like forelimbs for digging. In the
+        Philippines,  their breeding season is typically from late May to early October,
+        coinciding  with warmer and wetter months favorable for mating and egg-laying.  They feed
+        on a variety of host plants, including grasses, vegetables like sweet potatoes and
+        carrots,  and ornamental plants such as hibiscus and marigolds. In some areas of the
+        Philippines,  particularly in Pampanga province, Gryllotalpa species are consumed as
+        food,  making them a local delicacy and a tourist attraction.
+    </string>
+    <string name="b"><b>Root Aphids</b> (Aphididae:Homoptera) are typically about the size of a pinhead
+        and are characterized by a pair of tubelike projections called cornicles on their
+        abdomen.  Aphids are significant plant pests, capable of stunting plant growth, inducing
+        plant  galls, transmitting plant virus diseases, and causing deformities in leaves, buds,
+        and  flowers. In the Philippines, aphids are present and can be found infesting various
+        host plants.  They are particularly common during the wet season,  which typically spans
+        from June to November in agricultural areas. Aphids thrive in warm and humid conditions,
+        making these months conducive to their proliferation. These pests can rapidly reproduce,
+        leading to infestations that can cause significant damage to crops and ornamental plants
+        if  not managed effectively. Farmers and gardeners need to monitor for aphid presence,
+        especially  during the wet season, and employ appropriate control measures to mitigate
+        their  impact on plant health.
+    </string>
+    <string name="c"><b>Root Weevils</b> (Coleoptera: Curculionidae) are diverse phytophagous insects,
+        often  pests in crops. Identified pheromones and plant volatiles aid in their monitoring
+        and control. Notably, these pheromones have synergistic effects with plant volatiles,
+        enhancing  detection methods. In the Philippines, weevils are present, thriving in warm
+        and  humid conditions during the wet season from June to November in agricultural areas.
+        They target a wide range of host plants such as grains, fruits like mangoes and bananas,
+        vegetables like beans and potatoes, and ornamental plants.
+    </string>
+
+    <string name="d">
+        <b>Greenhorned caterpillars</b> (Lepidoptera: Satyridae) They are minor pests of rice.
+        Their potential severity is generally too low to cause yield loss.
+        The caterpillar is green, slightly flattened with two red horn processes on the head and
+        two yellow processes in the anal end. It is most common in rainfed areas.
+    </string>
+
+    <string name="e"><b>Rice skippers</b> (Lepidoptera: Hesperiidae) It has antennae clubs hooked
+        backward  like a crochet hook, it  also has generally stockier bodies and larger compound
+        eyes.  It is usually orange, rust, or brown in color and has pointed forewings.  Many
+        species have dark markings or black stigmas on their forewings</string>
+
+    <string name="g"><b>Planthoppers</b>  (Homoptera: Delphacidae)  It is mostly small insects, usually
+        between 2-4 mm (range 1.5 – ~8 mm).  It has  piercing/sucking mouthparts, in the form of
+        a beak.   The wings are membranous or somewhat thickened (especially when brachypterous),
+        and held tent-like; the wings may be clear or patterned.    The hind legs are jumping (a
+        feature that is true of essentially the entire suborder). </string>
+    <string name="h"><b>Rice leaffolder</b>, Cnaphalocrocis medinalis Guénee (Lepidoptera: Pyralidae) It
+        is a notable leaf feeding insect in all the major rice growing regions in Asia. The adult
+        rice  leaffolder is a yellow-brown moth. Leaffolder caterpillars fold the rice leaves
+        around  themselves and attach the leaf margins together with silk strands.  Each female
+        lays around 300 eggs at night during a lifecycle of three to 10 days. Larvae are yellow,
+        turn yellowish‐green with brown heads as they mature, and are about 12‐25 mm long.  Each
+        larva can make two to four folded leaves. Pupa is about 9-12 mm long and is found inside
+        the rolled leaf.  Adults are yellow and brown in color. Adults usually emerge in the
+        evening.  Females lay eggs at night.</string>
+
+    <string name="i"><b>Rice stem borers</b> (Lepidoptera: Pyralidae and Noctuidae) Stem borers can destroy rice at any stage of the plant from seedling to maturity. They feed upon tillers and cause dead hearts or drying of the central tiller, during vegetative stage; and causes whiteheads at reproductive stage. Stem borers are caterpillars that live in rice stems. They eventually turn into yellow or light brown moths; usually one larva occurs per tiller. The moths are active at night. A female can lay up to three egg masses during her 7 to 10 day life as an adult.</string>
+
+    <string name="j"><b>Stalked-eyed flies</b> (Diptera: Diopsidae) Stalk-eyed flies are insects of the fly family Diopsidae. The family is distinguished from most other flies by most members of the family possessing "eyestalks": projections from the sides of the head with the eyes at the end.
+The stalk-eyed flies are up to a centimeter long, and they feed on both decaying plants and animals.</string>
+
+    <string name="k"><b>Seedling maggots</b> (Diptera: Muscidae) The eggs are 1.5 mm long, white, and elongated. They are placed individually or collectively on the rice/corn seedlings leaf blades, which are adhered to by a sticky material generated by the female. After three days of incubation, the eggs hatch in the morning. The larva resembles a maggot and is a very brilliant yellow color. The maggot can travel up and down the leaf blade to feed on the plants interior tissue because of the morning dew. The maggot pupates in the ground or at the base of the tillers or stem after going through three larval instars in a period of six to ten days.</string>
+
+    <string name="l"><b>Rice whorl maggots</b> (Diptera: Ephydridae) The larva rasps the tissues of unopened leaves or the expanding tips of developing leaves with its hardened mouth hooks. Pinholes, white or translucent patches, and yellow dots are the results of whorl maggot feeding damage. The maggot known as rice whorl is semiaquatic. It feeds on the central whorl leaf of the rice plant during its vegetative stage and is frequently found in irrigated fields. Upland rice does not experience it. It also favors areas with lots of calm water, lush foliage, including ponds, streams, and lakes.</string>
+
+    <string name="m"><b>Rice caseworms</b> (Lepidoptera: Pyralidae) To create leaf cases, rice caseworms or case carriers trim off the tips of leaves. Their feeding harm has the ability to cut leaves at an angle just like scissors. Damage indicators can be mistaken for other pest insects that cause defoliation. Look for signs of the caseworm, such as chopped leaves, leaf cases attached to leaf sheaths floating in the water with the larvae encased, and ladder-like leaf tissues.</string>
+
+    <string name="n"><b>Armyworms and cutworms</b> (Lepidoptera: Noctuidae)
+-Mature armyworms are approximately 3.5-5 cm (1.5-2 inches) long and gray or yellow and green with a tinge of pink. A broken narrow stripe runs along the middle of the back and a lighter stripe runs along each side. The head capsule has a honeycomb pattern and is light brown. Armyworm moths are light red or brown and have a white spot in the center of each forewing.
+-All cutworms have a dark brown or gray head and measure approximately 3.5-5 cm (1.5-2 inches) long when fully grown. Black cutworms are dark gray or black and have a pale stripe running along the back. Variegated cutworms are grey or brown with an orange stripe and darker markings running along the sides. There is also a row of light dots running down the center of the back.
+-Cutworm moths typically have a wingspan of roughly 3.5 cm (1.5 inches) and bodies that are about 2.5 cm (1 inch) long. The moths are black or light brown with various patterns of gray, brown, black, or white spots or stripes. The forewings are usually patterned and tend to be darker than the hindwings. These markings are most visible on newly emerged moths and become increasingly difficult to see when moths lose their wing scales with age.
+-Geographical distribution: Worldwide.
+-Damage: On hatching, clusters of young larvae feed gregariously by initially scraping the surface of the leaf. Later instars disburse and move on to other leaves and feed voraciously, producing large irregular holes and may leave only the veins. High infestation causes severe defoliation. Army worms quickly skeletonise leaves as they attack in clusters.</string>
+
+    <string name="o"><b>Grasshoppers, katydids, and field crickets</b> (Orthoptera: Acrididae, Gryllidae, and Tettigoniidae)
+-Crickets, grasshoppers, and katydids undergo incomplete or gradual metamorphosis. Nymphs look similar to mature adults but lack fully-developed wings.
+-Powerful hind legs, built for jumping, characterize the Orthopteran insects. The muscular legs propel grasshoppers and other members of the order for distances up to 20 times their body lengths.
+-Acrididae Family. Most commonly called grasshoppers, species in this family vary greatly in shape, size and colouring but all possess large hind legs well developed for jumping. They have short antennae, a short ovipositor and well-developed wings.
+-Acrididae (short-horned grasshoppers and locusts) — Herbivores.  Common in grasslands and prairies.  This family includes many pest species such as the twostriped grasshopper (Melanoplus bivittatus), the differential grasshopper (M. differentialis), the African migratory locust (Locusta migratoria), and the desert locust (Schistocerca gregaria).
+-Tettigoniidae (long-horned grasshoppers and katydids) — Herbivores.  Females have a long, blade-like ovipositor.  Some species are pests of trees and shrubs.
+-Gryllidae (true crickets) — Herbivores and scavengers.  Females have a cylindrical or needle-shaped ovipositor.  This family includes the house cricket, Acheta domesticus.
+-Distribution: Worldwide
+-The primary injury caused by grasshoppers is defoliation, as they consume and clip foliage as they feed. Grasshoppers also cause direct crop losses by feeding on ripening grain. With favorable, warm dry climatic conditions, grasshoppers can hatch and mature two to four weeks earlier than normal.</string>
+
+    <string name="p"><b>Black bugs</b> (Hemiptera: Pentatomidae) remove the sap of the plant. They can cause browning of leaves, deadheart, and bugburn. Their damage also causes stunting in plants, reduced tiller number, and formation of whiteheads. On severe cases, black bugs weaken the plant preventing them from producing seeds.The insect is common in rainfed and irrigated wetland environments. It prefers continuously cropped irrigated rice areas and poorly drained fields. Damages are observed more frequently in dry season rice crops and densely planted fields. Black bug flight patterns are affected by the lunar cycle; on full moon nights, large numbers of adults swarm to light sources. Staggered planting of the rice crop and excessive nitrogen also favor the buildup of the pest. During non-rice periods, the presence of alternate breeding site favors population increase.</string>
+
+    <string name="q"><b>Rice hispa</b> (Coleoptera: Chrysomelidae) is a specie of leaf beetle from Southeast Asia, often known by its common name: the “rice hispa”. These beetles are a well known invasive pest, and are responsible for significant crop damage across many countries. The male to female ratio is between 1:1.26 and 1:1.46. Rice hispa eggs laid by the female beetle are usually inserted beneath the epidermis of the underside of leaves. Occasionally, the eggs are also laid on the top side of leaves. The eggs are minute, covered in a dark substance, and laid singly. Each female lays a total of between 18 and 101 eggs in their lifetime, with an average of 55.</string>
+
+    <string name="r"><b>Mealybugs</b> (Homoptera: Pseudococcidae) Identified as vectors belong to only two families, Pseudococcidae (mealybugs) and Coccidae (soft scales). Mealybugs (family Pseudococcidae) are soft-bodied, wingless insects that often appear as white cottony masses on the leaves, stems, and fruit of plants Mealybugs are sexually dimorphic: females appear as nymphs, exhibiting reduced morphology, and lack wings, although unlike many female scale insects, they often retain legs and can move. Males are smaller, gnat-like and have wings. Since mealybugs (as well as all other Hemiptera) are hemimetabolous insects, they do not undergo complete metamorphosis in the true sense of the word. However, male mealybugs do exhibit a radical change during their life cycle, changing from wingless, ovoid nymphs to wasp-like flying adults.</string>
+
+    <string name="s"><b>Ripening Seed Bugs</b> (Hemiptera: Alydidae): This family includes Leptocorisa rice bugs (RBs). In Oceania and Asia, L. In tropical areas, Oryza sp. is the most prominent species, and L. L. and acuta chinensis are more common in temperate or highland regions. When large grasslands were scattered with rice fields in the first part of the 20th century, these pests posed a greater threat. Adult RBs could locate grasslands with ease, flying up to 24 km in total. Before the rice-planting season, RBs may finish several generations, particularly in years where early and sporadic rains promoted several grass flushes. Because isolated fields are easily accessible to adult RBs, dryland rice is more vulnerable than wetland rice. Because they are unable to fly, nymphs must rely on their moms to oviposit during panic attacks in order to survive. RB outbreaks were less common as more land was settled and the proportion of grassland to rice land dropped.</string>
+
+    <string name="t"><b>Stink Bugs</b> (Hemiptera:Pentatomidae) Among the various families of real bugs are stink bugs. Their bad smell that they release when disturbed is whence they got their moniker. These insects can harm crops such as fruits, vegetables, and cereals because they feed on plant sap. Halyomorpha halys, or the brown marmorated stink bug, and Chinavia spp., or the green stink bug, are two common species of stink bugs. To reduce agricultural losses, integrated pest management techniques monitor and manage stink bug populations.</string>
+
+    <string name="u"><b>Ants</b> (Hymenoptera:Formicidae) Ants are gregarious insects that are widespread. They are essential to ecosystems for processes like nitrogen cycling and soil aeration. Certain types of ants are invasive and can cause problems in homes, gardens, and farming areas. Finding nests, identifying the species, and putting focused management techniques into practice are all necessary for effective ant control.</string>
+
+    <string name="v"><b>Rice green semilooper</b> (Lepidoptera:Noctuidae) Green semiloopers are found in wetland environments. They are abundant during the rainy season. The adult moths hide at the base of the plants in rice fields or in grassy areas during daytime and are active at night. Prior to pupation, the older larvae fold a rice leaf and secure it with silk to form a pupal chamber</string>
+
+    <string name="w"><b>Rice thrips</b> (Thysanoptera:Thripidae) Rice thrips are more serious pests during the dry season. It infests the rice plant during the seedling stage or 2 weeks after early sowing.These insects are present in all rice environments. In the tropics, the rice thrips becomes abundant in dry periods from July to September and January to March. In temperate areas, the insects migrate and hibernate on graminaceous weeds during the winter season.Feeding damage caused by thrips causes leaf curling and discoloration.</string>
+
+    <string name="x"><b>Rice leaf Beetles</b> (Coleoptera:Chrysomelidae) The insects of the beetle family Chrysomelidae are commonly known as leaf beetles, and include over 37,000 (and probably at least 50,000)species in more than 2,500 genera, making up one of the largest and most commonly encountered of all beetle families. Numerous subfamilies are recognized, but the precise taxonomy and systematics are likely to change with ongoing research.
+
+Leaf beetles are partially recognizable by their tarsal formula, which appears to be 4-4-4, but is actually 5-5-5 as the fourth tarsal segment is very small and hidden by the third.As with many taxa, no single character defines the Chrysomelidae; instead, the family is delineated by a set of characters.Some lineages are only distinguished with difficulty from longhorn beetles (family Cerambycidae), namely by the antennae not arising from frontal tubercles.</string>
+
+    <string name="y"><b>Wireworms</b> (Coleopatra:Curcolionidae) It is slender, cylindrical
+        larvae with hard, shiny bodies, typically ranging from 1 to 4 centimeters in length. These soil-dwelling pests are notorious for their destructive feeding habits, primarily targeting the underground parts of various crops. The wireworms life cycle can span several years, with the larval stage being the most damaging to agricultural crops. They feed on the roots, seeds, and underground stems of a wide range of plants, including cereals, potatoes, carrots, and other root vegetables, often leading to reduced crop yields and quality. In agricultural settings, wireworm infestations are particularly problematic during the early stages of crop development. Effective management strategies for controlling wireworm populations include crop rotation, soil cultivation, and the use of insecticides targeted specifically at soil-dwelling pests.</string>
+
+    <string name="z"><b>Root-feeding mealybugs</b> (Homoptera:Pseudococcidae) commence as adult females select suitable sites, typically within the soil or on plant roots, to lay their eggs. Once laid, males fertilize the eggs through mating, initiating the development process. Fertilized eggs undergo maturation, eventually hatching into nymphs. These nymphs, after emerging, begin feeding on plant roots and undergo several molts before reaching adulthood. Adult females, once fully developed, lay eggs, while males actively seek mates for fertilization, perpetuating the reproductive cycle. This continuous process sustains and expands the mealybug population, often leading to agricultural challenges due to their damaging effects on host plants.</string>
+
+    <string name="aa"><b>Leafhoppers</b> (Cicadellidae:Homoptera), are small, agile insects known for their jumping ability and distinct appearance. These pests typically measure around 3 to 12 millimeters in length, with slender bodies and elongated heads. Leafhoppers are commonly found on a wide variety of plants, where they feed on sap by piercing the plant tissues with their needle-like mouthparts. They are often recognized by their wedge-shaped bodies and characteristic wings, which are held in a tent-like fashion over their backs. Leafhoppers are known vectors for various plant diseases, as they can transmit pathogens while feeding on plant sap. Their feeding activity can cause a range of damage to crops, including stunted growth, leaf discoloration, and reduced yield. Integrated pest management strategies, including the use of insecticides and biological control agents, are often employed to manage leafhopper populations and minimize crop damage in agricultural settings.</string>
+
+    <string name="bb"><b>Termites </b>, (Isoptera: Termitidae and Rhinotermitidae) These are a group of detritophagous eusocial insects which consume a wide variety of decaying plant material, generally in the form of wood, leaf litter, and soil humus. They are distinguished by their moniliform antennae and the soft-bodied and often unpigmented worker caste for which they have been commonly termed "white ants"; however, they are not ants, to which they are distantly related. about 2,972 extant species are currently described, 2,105 of which are members of the family Termitidae</string>
+    <string name="cc"><b>White grubs </b>, White grubs (Coleoptera:Scarabaeidae)  These are the larval stage of scarab beetles and chafers. They feed on the roots of grasses and can be found in the top couple inches of soil. The body is creamy white with a reddish-brown head, and they have three pairs of legs on the thorax. They may reach nearly one inch long.</string>
+    <string name="dd"><b>Field Crickets</b> (Orthoptera: Gryllotalpidae) are black or dark brown
+        insects about 1 inch long as adults. They have large hind legs (for jumping) and most have well-developed wings. Nymphs are similar but are smaller and lack wings. Both have long, slender antennae. Field Crickets commonly spend the daylight hours hiding in dark, damp areas.
+    </string>
 </resources>

@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,6 +17,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,6 +28,9 @@ public class pest_information extends Fragment {
     private EditText editTextSearch;
     private RecyclerView recyclerViewSearchResults;
     PestInformationAdapter adapter;
+
+    List<String> dataTitleList;
+    List<Integer> dataImageList ;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -34,13 +39,13 @@ public class pest_information extends Fragment {
         editTextSearch = view.findViewById(R.id.search_edit_txt);
         recyclerViewSearchResults = view.findViewById(R.id.recyclerViewSearchResults);
 
-        List<String> dataTitleList = getTitleData();
-        List<Integer> dataImageList = getImageData();
+        dataTitleList = getTitleData();
+        dataImageList = getImageData();
 
-        adapter = new PestInformationAdapter(dataTitleList, dataImageList);
+        adapter = new PestInformationAdapter(getContext(), dataTitleList, dataImageList);
         recyclerViewSearchResults.setLayoutManager(new LinearLayoutManager(getContext()));
-        recyclerViewSearchResults.setAdapter(adapter);
 
+        recyclerViewSearchResults.setAdapter(adapter);
         editTextSearch.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {}
@@ -59,25 +64,72 @@ public class pest_information extends Fragment {
         return view;
     }
 
+
     private List<Integer> getImageData() {
         List<Integer> data = new ArrayList<>();
-        data.add(R.drawable.ic_launcher_background);
-        data.add(R.drawable.ic_launcher_background);
-        data.add(R.drawable.ic_launcher_background);
-        data.add(R.drawable.ic_launcher_background);
-        data.add(R.drawable.ic_launcher_background);
-        data.add(R.drawable.ic_launcher_background);
+        data.add(R.drawable.a);
+        data.add(R.drawable.b);
+        data.add(R.drawable.c);
+        data.add(R.drawable.d);
+        data.add(R.drawable.e);
+        data.add(R.drawable.f);
+        data.add(R.drawable.g);
+        data.add(R.drawable.h);
+        data.add(R.drawable.i);
+        data.add(R.drawable.j);
+        data.add(R.drawable.k);
+        data.add(R.drawable.l);
+        data.add(R.drawable.m);
+        data.add(R.drawable.n);
+        data.add(R.drawable.o);
+        data.add(R.drawable.p);
+        data.add(R.drawable.q);
+        data.add(R.drawable.r);
+        data.add(R.drawable.s);
+        data.add(R.drawable.t);
+        data.add(R.drawable.v);
+        data.add(R.drawable.w);
+        data.add(R.drawable.x);
+        data.add(R.drawable.y);
+        data.add(R.drawable.z);
+        data.add(R.drawable.aa);
+        data.add(R.drawable.bb);
+        data.add(R.drawable.cc);
+        data.add(R.drawable.dd);
 
         return data;
     }
     private List<String> getTitleData() {
         List<String> data = new ArrayList<>();
-        data.add("Apple");
-        data.add("Banana");
-        data.add("Orange");
-        data.add("Pineapple");
-        data.add("Watermelon");
-        data.add("Grapes");
+        data.add("Mole Crickets");
+        data.add("Root Aphids");
+        data.add("Root Weevils");
+        data.add("Greenhorned Caterpillars");
+        data.add("Rice Skippers");
+        data.add("Planthoppers");
+        data.add("Rice Leaffolder");
+        data.add("Rice Stem Borers");
+        data.add("Stalked-eyed Flies");
+        data.add("Seedling Maggots");
+        data.add("Rice Whorl Maggots");
+        data.add("Rice Caseworms");
+        data.add("Armyworms and Cutworms");
+        data.add("Grasshoppers, Katydids, and Field Crickets");
+        data.add("Black Bugs");
+        data.add("Rice Hispa");
+        data.add("Mealybugs");
+        data.add("Ripening Seed Bugs");
+        data.add("Stink Bugs");
+        data.add("Ants");
+        data.add("Rice Green Semilooper");
+        data.add("Rice Thrips");
+        data.add("Rice Leaf Beatles");
+        data.add("Wireworms");
+        data.add("Root-Feeding Mealybugs");
+        data.add("Leafhoppers");
+        data.add("Termites");
+        data.add("White Grubs");
+        data.add("Field Crickets");
         return data;
     }
     private void pestInfoInitializingAnimations(View view){

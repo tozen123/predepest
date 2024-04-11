@@ -3,10 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".dashboard"
     android:orientation="vertical"
-    android:background="@color/green"
-    >
+    android:background="@color/green">
     <LinearLayout
         android:id="@+id/header"
         android:layout_width="match_parent"
@@ -108,14 +108,20 @@
                 <TextView
                     android:id="@+id/density_count_txt"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="HIGH"
+                    android:layout_height="90dp"
+                    android:text="MEDIUM"
                     android:fontFamily="@font/montserratbold"
                     android:textColor="@color/white"
                     android:gravity="end"
-                    android:textSize="37sp"
+
+
                     android:paddingTop="18dp"
                     android:paddingBottom="18dp"
+
+                    app:autoSizeTextType="uniform"
+                    app:autoSizeStepGranularity="1sp"
+                    app:autoSizeMaxTextSize="32sp"
+                    app:autoSizeMinTextSize="21sp"
                     />
 
 

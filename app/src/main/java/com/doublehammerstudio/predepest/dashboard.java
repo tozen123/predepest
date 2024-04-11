@@ -4,6 +4,7 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
@@ -15,12 +16,21 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 
 public class dashboard extends Fragment {
 
 
-    private TextView densityCount, humidityCount, temperatureCount, percipitationCount;
+    private TextView densityCount, humidityCount, temperatureCount, percipitationCount, detectedPestCount;
+
+    private DatabaseReference mDatabase;
 
 
     @Override
@@ -28,6 +38,21 @@ public class dashboard extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_dashboard, container, false);
         dashboardInitializingAnimations(view);
+
+
+        mDatabase = FirebaseDatabase.getInstance().getReference();
+
+        densityCount = view.findViewById(R.id.density_count_txt);
+        detectedPestCount = view.findViewById(R.id.detected_pest_count_txt);
+        humidityCount = view.findViewById(R.id.humidity_count_txt);
+        temperatureCount = view.findViewById(R.id.temperature_count_txt);
+        percipitationCount = view.findViewById(R.id.percipitation_count_txt);
+
+        fetchData("densityLevel", densityCount, "");
+        fetchData("Humidity", humidityCount, "");
+        fetchData("Temperature", temperatureCount, " °C");
+        fetchData("Precipitation", percipitationCount, "");
+        fetchData("detected_pest_count", detectedPestCount, "");
 
         Button searchButton = view.findViewById(R.id.about);
         searchButton.setOnClickListener(new View.OnClickListener() {
@@ -51,6 +76,42 @@ public class dashboard extends Fragment {
         });
 
         return view;
+    }
+    private void fetchData(String path, TextView count, String addOns)
+    {
+
+        mDatabase.child(path).addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+
+                if (snapshot.exists()) {
+
+                    Object value = snapshot.getValue();
+
+
+                    if (value instanceof String) {
+                        String stringValue = (String) value;
+                        count.setText(String.format("%s%s", stringValue, addOns));
+                    } else if (value instanceof Number) {
+
+                        Number numberValue = (Number) value;
+                        count.setText(String.format("%d%s", numberValue.intValue(), addOns));
+                    } else {
+
+                        Toast.makeText(getContext(), "Data is neither String nor Number.", Toast.LENGTH_SHORT).show();
+                    }
+                } else {
+
+                    Toast.makeText(getContext(), "Data does not exist.", Toast.LENGTH_SHORT).show();
+                }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+                Toast.makeText(getContext(), "Fail to get data.", Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 
     private void dashboardInitializingAnimations(View view){
